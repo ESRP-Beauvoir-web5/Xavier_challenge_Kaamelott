@@ -1,10 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     margin: auto;
     width: 90%;
     text-align: center;
 }
-header button{
-    width: 7em;
+header span{
+    width: 8em;
     margin-left: 1%;
     text-align: center;
     vertical-align: middle;
@@ -19,7 +23,6 @@ header hr{
 }
 #titre h1{
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     font-weight: bolder;
 }
@@ -31,7 +34,6 @@ header hr{
     padding: 2.5rem;
 }
 #presentation h2{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     font-weight: bold;
 }
@@ -48,16 +50,15 @@ header hr{
 
 #historique{
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #historique span{
     font-weight: bold;
+    font-size: 120%;
 }
 #pitch{
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
 }
 #syno h3{
@@ -67,30 +68,25 @@ header hr{
     color: #8B0000;
     font-size: 1.5em;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 .synopsis{
     margin-top: 3em;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
 #acteurs{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     width: 50%;
     margin: auto;
 
 }
-
 .acteur{
     background-color: #DDDDDD;
     color:#8B0000;
     text-transform: uppercase;
     margin-top: 0.3em;
     font-size: 3vh;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
 }
 .acteur a {
@@ -99,12 +95,29 @@ header hr{
 .acteur a:hover{
     font-weight: bold;
 }
-
 h3{
     font-size: 6vh;
     margin-bottom: 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+#images{
+    text-align: center;
+}
+.photo{
+    margin: auto;
+    margin-bottom: 1.5rem;
+    width: 30%;
+    border: 0.05em black solid;
+    padding: 1em;
+}
+.photo img{
+    max-width: 100%;
+}
+h4{
+    font-weight: bold;
+    color: #8B0000;
+    font-size: 4vh;
+    margin-bottom: 0.6em;
 }
 
 footer{
