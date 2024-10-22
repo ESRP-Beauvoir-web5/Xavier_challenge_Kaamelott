@@ -75,6 +75,38 @@ header hr{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+#acteurs{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+
+}
+
+.acteur{
+    background-color: #DDDDDD;
+    color:#8B0000;
+    text-transform: uppercase;
+    margin-top: 0.3em;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.acteur a {
+    text-decoration: none;
+}
+.acteur a:hover{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 6vh;
+    margin-bottom: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 footer{
     background-color: #DDDDDD;
     width: 96%;
