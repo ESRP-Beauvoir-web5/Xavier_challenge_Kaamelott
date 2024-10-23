@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -7,6 +7,7 @@ header{
     width: 90%;
     text-align: center;
 }
+
 header span{
     width: 8em;
     margin-left: 1%;
@@ -18,25 +19,26 @@ header span{
     padding: 0.3em;
 
 }
-header hr{
-    color: #8B0000;
+    header hr{
+        color: #8B0000;
 }
-#titre h1{
-    display: inline;
-    font-size: 3em;
-    font-weight: bolder;
+    #titre h1{
+        display: inline;
+        font-size: 3em;
+        font-weight: bolder;
 }
 
 #presentation{
-    margin: auto;
-    width: 60%;
-    background-color: #DDDDDD;
-    padding: 2.5rem;
+        margin: auto;
+        width: 80%;
+        background-color: #DDDDDD;
+        padding: 2.5rem;
 }
 #presentation h2{
     font-size: 2em;
     font-weight: bold;
 }
+
 #haut{
     display: block;
     margin:auto;
@@ -47,7 +49,6 @@ header hr{
     margin-bottom: 1.5em;
 }
 
-
 #historique{
     font-size: 1em;
 }
@@ -55,10 +56,11 @@ header hr{
     font-weight: bold;
     font-size: 120%;
 }
+
 #pitch{
     margin-top: 2em;
     margin-bottom: 2em;
-    text-align: center;
+    text-align: justify;
     font-size: 0.7em;
 }
 #syno h3{
@@ -67,63 +69,63 @@ header hr{
     text-align: center;
     color: #8B0000;
     font-size: 1.5em;
-    font-weight: bold;
+     font-weight: bold;
+ }
 
-}
 .synopsis{
     margin-top: 3em;
     font-size: 1em;
-}
+ }
 
 #acteurs{
     text-align: center;
     width: 50%;
     margin: auto;
+}
 
-}
 .acteur{
-    background-color: #DDDDDD;
-    color:#8B0000;
-    text-transform: uppercase;
-    margin-top: 0.3em;
-    font-size: 3vh;
-    border-radius: 10px;
-}
+        background-color: #DDDDDD;
+        color:#8B0000;
+        text-transform: uppercase;
+        margin-top: 0.3em;
+        font-size: 3vh;
+        border-radius: 10px;
+    }
 .acteur a {
-    text-decoration: none;
-}
+        text-decoration: none;
+    }
 .acteur a:hover{
-    font-weight: bold;
-}
+        font-weight: bold;
+    }
 h3{
-    font-size: 6vh;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
+        font-size: 6vh;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
 #images{
-    text-align: center;
-}
+        text-align: center;
+    }
 .photo{
-    margin: auto;
-    margin-bottom: 1.5rem;
-    width: 30%;
-    border: 0.05em black solid;
-    padding: 1em;
-}
+        margin: auto;
+        margin-bottom: 1.5rem;
+        width: 30%;
+        border: 0.05em black solid;
+        padding: 1em;
+    }
 .photo img{
-    max-width: 100%;
-}
+        max-width: 100%;
+    }
 h4{
-    font-weight: bold;
-    color: #8B0000;
-    font-size: 4vh;
-    margin-bottom: 0.6em;
-}
+        font-weight: bold;
+        color: #8B0000;
+        font-size: 4vh;
+        margin-bottom: 0.6em;
+    }
 
 footer{
     background-color: #DDDDDD;
-    width: 98%;
-    margin: 1%;
-    padding: 3%;
-    text-align: center;
-}
+        width: 98%;
+        margin: 1%;
+        padding: 3%;
+        text-align: center;
+    }
