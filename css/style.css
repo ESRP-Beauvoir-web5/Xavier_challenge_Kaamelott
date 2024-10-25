@@ -1,7 +1,14 @@
 body{
      font-family: Arial, Helvetica, sans-serif;
+     background-color: #DDDDDD;
 }
-
+#container{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
 header{
     margin: auto;
     width: 90%;
@@ -61,7 +68,8 @@ header span{
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: justify;
-    font-size: 0.7em;
+    font-size: 1em;
+    font-style: italic;
 }
 #syno h3{
     margin-top: 1em;
@@ -90,15 +98,16 @@ header span{
         margin-top: 0.3em;
         font-size: 3vh;
         border-radius: 10px;
+        padding: 0.3em;
     }
-.acteur a {
-        text-decoration: none;
-    }
+
 .acteur a:hover{
         font-weight: bold;
     }
+
 h3{
         font-size: 6vh;
+        margin-top: 0.8em;
         margin-bottom: 0.5em;
         font-weight: bold;
     }
